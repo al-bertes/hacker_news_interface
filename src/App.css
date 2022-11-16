@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,900&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+font-family: 'IBM Plex Mono', monospace;
+
+}
+
+.wraper {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.logo_heading {
+    margin-left: 10px;
+    height: 40px;
+    font-size: 32px;
+    color: white;
+}
+#update_img{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.main {
+}
+.about_news {
+    display: flex;
+}
+.list_news {
+    margin-top: 30px;
+}
+.item_news {
+    
+   
+    background-color: #ADD8E6;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    padding: 7px 7px;
+}
+.heading_news {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+}
+.reitng {
+    text-align: bottom;
+    background-color: #7B68EE;
+    border-radius: 5px;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+.autor {
+    background-color: #7FFFD4	;
+    border-radius: 5px;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+.data {
+    background-color: #778899;
+    border-radius: 5px;
+    padding: 0 5px;
+    margin-right: 4px;
+}
+
+
+.news_container {
+}
+.main_news {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.about_newss {
+    margin-top: 25px;
+    display: inline-block;
+    text-align: start;
+    color: #8C8D91;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 50px;
+}
+.heading_news {
+}
+.path_to_sourse {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #5D69F7;
+}
+.name {
+    color: #C25DF7
+}
+.data_n {
+    color: #5D95F7;
+    
+}
+.name_autor {
+}
+.data {
+}
+.coments_container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.heading_coments {
+    font-family:  'Open Sans', sans-serif;
+    font-weight: normal;
+}
+.count_comnets {
+}
+.list_coments {
+}
+.item_coments {
+    list-style-type: none;
+    background-color: #FCE0A6;
+    border-radius: 5px;
+    max-width: 400px;
+    padding: 10px 5px;
+}
+.comment {
+}
+.comment_autor {
+}
